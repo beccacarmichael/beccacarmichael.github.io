@@ -38,7 +38,8 @@ img {
     padding: 10px 10px;
     border-radius: 18px;
 }
-/* Used on About Me - Images - this is for the id set up for the images on the About Me pg - this was hard to get centered - finally figured out justify */
+/* Used on About Me - Images - this is for the id set up for the images on the About Me pg - this was hard to get centered - 
+finally figured out justify */
 #imagesaboutme {
     align-items: center;
     display: flex;
@@ -59,7 +60,9 @@ img {
     background-color: mediumseagreen;
     color: azure;
 }
-/* Used on About Me fake buttons - this took for ever to figure out, but I wanted to turn off all of the 'hyperlink' features that were on the button - (the underline and the text changing colour) I do not know why but you have to have the other stuff there - if you take it away it doesn't work*/
+/* Used on About Me fake buttons - this took for ever to figure out, but I wanted to turn off all of the 'hyperlink' 
+features that were on the button - (the underline and the text changing colour) I do not know why but you have to have the other stuff there - 
+if you take it away it doesn't work*/
 th.button a
 th.button a:visited 
 th.button a:hover
@@ -119,7 +122,8 @@ hr {
     text-align: left;
     margin-left: 0%;
 }
-/* Navigation bar settings - used on all pages at the top - was super hard to figure out how to get rid of the bulet points, so very handy w3schools pg after...) */
+/* Navigation bar settings - used on all pages at the top - was super hard to figure out how to get rid of the bulet points, so very 
+handy w3schools pg after...) */
 .navigationbar {
     float: left; 
     text-align: center;
@@ -197,33 +201,36 @@ hr {
 #imagesarizona img {
     margin: 10px;
 }
-/* Navigation bar settings - used on all pages at the top */
+/* Navigation bar settings - used on all pages at the top (used source: https://www.w3schools.com/css/css_navbar.asp and a lot of playing around) */
 ul.navigationlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-/* Navigation bar settings - used on all pages at the top */  
+/* Navigation bar settings - used on all pages at the top (used source: https://www.w3schools.com/css/css_navbar.asp and a lot of playing around) */  
 li a {
-float: left;
-display: block;
-padding: 8px;
-background-color: lightseagreen;
+    float: left;
+    display: block;
+    padding: 8px;
+    background-color: lightseagreen;
 }
-/* Navigation bar settings - used on all pages at the top - the settings to stop the hyperlink 'effects' (font colour and underline after clicked on)  */
+/* Navigation bar settings - used on all pages at the top - the settings to stop the hyperlink 'effects' (font colour and underline 
+after clicked on) (used source: https://www.w3schools.com/css/css_navbar.asp and a lot of playing around) */
 li a,
 li a:visited,
 li a:active {
     text-decoration: none;
     color: azure;
 }
-/* Navigation bar settings - used on all pages at the top - added the hover efct so the background colour changes when the mouse moves over it  */
+/* Navigation bar settings - used on all pages at the top - added the hover efect so the background colour changes when the mouse moves 
+over it (used source: https://www.w3schools.com/css/css_navbar.asp and a lot of playing around) */
 li a:hover {
     background-color: mediumseagreen;
     text-decoration: none;
 }
-/* Navigation bar settings - used on all pages at the top */
+
+/* Navigation bar settings - used on all pages at the top (used source: https://www.w3schools.com/css/css_navbar.asp and a lot of playing around) */
 .location{
     text-align: center;
     font-size: 50px;
