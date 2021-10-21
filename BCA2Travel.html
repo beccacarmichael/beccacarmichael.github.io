@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- MY TRAVELS PAGE -->
+<html>   
+    <head>
+        <!-- Create the 'site title' (what you would see on the tab), i'm going to use this as the title for the whole project-->
+        <title>Becca's Travels</title>
+        <!-- add a link for homepage link -->
+        <link rel="stylesheet" href="BCA2.css">
+    </head>
+    <body>
+        <!-- add a top navigation bar with link to each page - change the colour so it stands out, make the colour change when you hover over it
+            also hard, remove the hyperlink colour and underline -->
+        <nav class="navigationbar">
+            <ul class="navigationlist">
+                <li><a class="active" href="./index.html"> About Me </a></li>
+                <li><a href="./BCA2Travel.html"> My Travels </a></li>
+                <li><a href="./BCA2Resume.html"> My Resume </a></li>
+            </ul>
+        </nav>
+        <!--  Set up h1 element as the 'title' for the thing going to use this on every page (my name), change the background and font colour so it stands out-->
+        <h1>Becca Carmichael</h1>
+        <!--Set up my travels id so that it is the subtitle for this page, match the background colour and font color to h1 element and style to other h2 elements by giving it it's own id -->
+        <h2 id="travel"> My Travels </h2>
+        <!-- Enter an intro paragraph to explain this page, give it it's own id incase I'm adding more things or need to edit it to be diff then the other p's (maybe align it left?)-->
+        <p id="travelintro"> I love adventuring near and far and I have been able to go on a lot of amazing adventures and interact with a lot of 
+            different environments. Some of my trips I have tackled my fears and traveled solo, other trips I have created and 
+            collected life lond memories with friends. Take a look at some of the places I have been and the amazing thing I have
+            seen in these magical places! </p>
+        <!-- Add a line break to make things look a bit more intresting/ clean-->    
+        <hr>
+        <!-- Make a class for location so I can change the font size and colour to match this page but keep it with the h2 elements - too many h elements become confusing, continue the class for rest of country names on this page-->
+        <h2 class="location"> Iceland</h2>
+        <!-- Add a static api google map of Iceland, give it an id and add it to div (division?) so I can move it around, added the next 2 pictures to the id too so they can all be centered and make things look neat -->
+            <div id="mapiceland"><img id="iceland" src="https://maps.googleapis.com/maps/api/staticmap?scale=1
+&center=Iceland
+&zoom=5
+&size=700x500
+&maptype=roadmap
+&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" alt="Iceland">
+            <img src="./ImagesTravel/Iceland/beach.jpg" alt=" Black Sand Beaches, Reynisfjara, Iceland">
+            <img src="./ImagesTravel/Iceland/bridge.jpg" alt= "Boardwalk, hiking trail, Iceland">
+        </div>
+        <!-- Start the next div for the next 'row' of pictures form Iceland, give it it's own id so I can move them/ group them nicely-->
+        <div id="imagesiceland">
+            <img src="./ImagesTravel/Iceland/canyon.jpg" alt= "Mid-Atlantic Rift, Þingvellir, Iceland">
+            <img src="./ImagesTravel/Iceland/city.jpg" alt= "Reykjavík, Iceland">
+            <img src="./ImagesTravel/Iceland/clouds.jpg" alt= "Clouds caused by Geysir, Iceland">
+            <img src="./ImagesTravel/Iceland/path.jpg" alt= "Hiking trail, Iceland">
+        </div>
+        <!-- New line break to divide up the countries and make things look clean-->
+        <hr>
+        <h2 class="location"> England </h2>
+        <!-- New div for new api and pictures-->
+        <div id="mapengland">
+            <img id="england" src="https://maps.googleapis.com/maps/api/staticmap?scale=1
+&center=United+Kingdom
+&zoom=5
+&size=700x500
+&maptype=roadmap
+&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" alt="England">
+            <img src="./ImagesTravel/England/bridge.jpg" alt=" Stourhead, England">
+            <img src="./ImagesTravel/England/cottage.jpg" alt= "Cottage Windows, England">
+        </div>
+        <!-- New div for last 4 pictures of England-->
+        <div id="imagesengland">
+            <img src="./ImagesTravel/England/road.jpg" alt= "Sunset Road, England">
+            <img src="./ImagesTravel/England/stairs.jpg" alt= "Staircase, England">
+            <img src="./ImagesTravel/England/stonehinge.jpg" alt= "Stonehenge, England">
+            <img src="./ImagesTravel/England/water.jpg" alt= "Coast, England">
+        </div>
+        <!-- New line break and title/ class for title for new country-->
+        <hr>
+        <h2 class="location"> Arizona </h2>
+        <div id="maparizona"><img id="arizona" src="https://maps.googleapis.com/maps/api/staticmap?scale=1
+&center=Arizona
+&zoom=5
+&size=700x500
+&maptype=roadmap
+&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" alt="Arizona">
+        <img src="./ImagesTravel/arizona/antelope.jpg" alt=" Antelope Canyon, arizona, USA">
+            <img src="./ImagesTravel/arizona/devils.jpg" alt= "Devils Bridge, arizona, USA">
+        </div>
+        <!-- new div for last 4 pictures-->
+        <div id="imagesarizona">
+            <img src="./ImagesTravel/arizona/horseshoe.jpg" alt= "Horse Shoe Bend, arizona, USA">
+            <img src="./ImagesTravel/arizona/phoenix.jpg" alt= "Phoenix, arizona, USA">
+            <img src="./ImagesTravel/arizona/zion.jpg" alt= "Zion National Park, Utah, UAS">
+            <img src="./ImagesTravel/arizona/zioncanyon.jpg" alt= "Zion Canyon, Utah, USA">
+        </div>
+    </body>
+</html>

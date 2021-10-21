@@ -1,0 +1,30 @@
+What do I want: 
+Title: Becca 
+include: 	Resume
+			About me
+			-extras-
+			Travels
+			Art
+			Projects 
+Item A:
+Page one About me - more fun 
+Page two Resume 		
+PART 3: 
+2. 5 or more unique images - pictures form travels  
+4. 2 google maps static API - could use that on info about travels 
+5. navigation bar - use that on main page to link the other pages? 
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>BECCA CARMICHAEL</h1>
+<h2>About</h2>
+<h3>Resume</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+</body>
+</html>

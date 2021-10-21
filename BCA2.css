@@ -1,0 +1,219 @@
+* {
+    font-family: Calibri, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin-bottom: 40px;
+}
+
+h1 {
+    background-color: MediumSeaGreen;
+    font-size: 90px;
+    color: azure;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin:0in 2in;
+    padding-bottom: .25in;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    text-align: center;
+    width: 2in;
+    height: .5in;
+}
+
+img {
+    margin: 10px auto;
+    height: 2in;
+    padding: 10px 10px;
+    border-radius: 18px;
+}
+
+#imagesaboutme {
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-items: center;
+}
+
+#aboutme {
+    background-color: MediumSeaGreen;
+    font-size: 50px;
+    color: azure;
+    margin: auto;
+    text-align: center;
+}
+
+.button {
+    border: 2px solid black;
+    background-color: mediumseagreen;
+    color: azure;
+}
+
+th.button a,
+th.button a:visited,
+th.button a:hover,
+th.button a:active {
+    text-decoration: none;
+    color: azure;
+}
+
+.contact {
+    text-align: center;
+    font-size: 18px;
+    background-color: mediumseagreen;
+    margin: auto;
+    color: azure
+}
+
+hr {
+    border-top: 4px solid mediumseagreen;
+}
+
+.resumetitle {
+    font-size: 23px;
+}
+
+#resume {
+    background-color: MediumSeaGreen;
+    font-size: 50px;
+    color: azure;
+    margin: auto;
+    text-align: center;
+}
+
+#travel {
+    background-color: MediumSeaGreen;
+    font-size: 50px;
+    color: azure;
+    margin: auto;
+    text-align: center;
+ }
+
+.jobtitle {
+    text-align: right;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.jobtitle-name {
+    text-align: left;
+}
+
+.jobtitle-date {
+    text-align: right;
+}
+
+.resumetable {
+    width: 100%;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.navigationbar {
+    float: left; 
+    text-align: center;
+    overflow: hidden;
+    background-color: lightseagreen;
+    Width: 100%;
+}
+#travelintro {
+    margin-top: 50px;    
+}
+
+#mapiceland {
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-content: center;
+}
+#mapiceland img {
+    margin: 10px;
+}
+#imagesiceland {
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-content: center;       
+}
+#imagesiceland img {
+    margin: 10px;
+}
+
+#mapengland {
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-content: center;
+}
+#mapengland img {
+    margin: 10px;
+}
+#imagesengland {
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-content: center;    
+}
+#imagesengland img {
+    margin: 10px;
+}
+
+#maparizona {    
+    align-items: center;
+    display: flex;
+    margin: auto;    
+    justify-content: center;
+}
+#maparizona img {
+    margin: 10px;
+}
+#imagesarizona {
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+}
+#imagesarizona img {
+    margin: 10px;
+}
+
+/* Styles for navigation bar */
+ul.navigationlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}  
+li a {
+float: left;
+display: block;
+padding: 8px;
+background-color: lightseagreen;
+}
+
+li a,
+li a:visited,
+li a:active {
+    text-decoration: none;
+    color: azure;
+}
+
+li a:hover {
+    background-color: mediumseagreen;
+    text-decoration: none;
+}
+.location{
+    text-align: center;
+    font-size: 50px;
+    color: darkseagreen;
+}
+
