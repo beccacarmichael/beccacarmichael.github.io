@@ -1,12 +1,14 @@
+/* CSS FOR WEB PAGE */ 
+/* Used on All Pages - Set font and box sizing for whole document */
 * {
     font-family: Calibri, sans-serif;
     box-sizing: border-box;
 }
-
+/* Used on All Pages - Set a margin for the body*/
 body {
     margin-bottom: 40px;
 }
-
+/* Used on All Pages - Set up the h1 element to have bg color, font color, be centered and lg font*/
 h1 {
     background-color: MediumSeaGreen;
     font-size: 90px;
@@ -14,36 +16,36 @@ h1 {
     margin: auto;
     text-align: center;
 }
-
+/* Used on About Me and My Travels - Set up the p element*/
 p {
     margin:0in 2in;
     padding-bottom: .25in;
 }
-
+/* Used on About Me and My Resume - set up table margins*/
 table {
     margin: auto;
 }
-
+/* Used on About Me and My Resume - set up table colum settings - same for all tables (even invisible ones)*/
 th {
     text-align: center;
     width: 2in;
     height: .5in;
 }
-
+/* Used on About Me and My Travels  -set up image settings - including size - is it bad form to use a mix of points and inches? */
 img {
     margin: 10px auto;
     height: 2in;
     padding: 10px 10px;
     border-radius: 18px;
 }
-
+/* Used on About Me - Images - this is for the id set up for the images on the About Me pg - this was hard to get centered - finally figured out justify */
 #imagesaboutme {
     align-items: center;
     display: flex;
     margin: auto;    
     justify-items: center;
 }
-
+/* Used on About Me - this is for hte About Me subtitle to have it match the 'home' title*/
 #aboutme {
     background-color: MediumSeaGreen;
     font-size: 50px;
@@ -51,21 +53,21 @@ img {
     margin: auto;
     text-align: center;
 }
-
+/* Used on About Me this is for the table I made look like a button set it up to have color and and outline boarder*/
 .button {
     border: 2px solid black;
     background-color: mediumseagreen;
     color: azure;
 }
-
-th.button a,
-th.button a:visited,
-th.button a:hover,
+/* Used on About Me fake buttons - this took for ever to figure out, but I wanted to turn off all of the 'hyperlink' features that were on the button - (the underline and the text changing colour) I do not know why but you have to have the other stuff there - if you take it away it doesn't work*/
+th.button a
+th.button a:visited 
+th.button a:hover
 th.button a:active {
     text-decoration: none;
     color: azure;
 }
-
+/* Used on My Resume - settings for contact section on My Resume*/
 .contact {
     text-align: center;
     font-size: 18px;
@@ -73,15 +75,15 @@ th.button a:active {
     margin: auto;
     color: azure
 }
-
+/* Used on My Resume and My Travels - line used on My Travels and My Resume - changed colour to match webpage */
 hr {
     border-top: 4px solid mediumseagreen;
 }
-
+/* Used on My Resume - Title of each catogorie for resume (work ex, education..) */
 .resumetitle {
     font-size: 23px;
 }
-
+/* Used on My Resume - id for h2, the subtitle of the page - made to match h1/ rest of pages  */
 #resume {
     background-color: MediumSeaGreen;
     font-size: 50px;
@@ -89,7 +91,7 @@ hr {
     margin: auto;
     text-align: center;
 }
-
+/* Used on My Travels */
 #travel {
     background-color: MediumSeaGreen;
     font-size: 50px;
@@ -97,27 +99,27 @@ hr {
     margin: auto;
     text-align: center;
  }
-
+/* Used on My Resume */
 .jobtitle {
     text-align: right;
     width: 100%;
     margin-left: 0%;
 }
-
+/* Used on My Resume */
 .jobtitle-name {
     text-align: left;
 }
-
+/* Used on My Resume */
 .jobtitle-date {
     text-align: right;
 }
-
+/* Used on My Resume */
 .resumetable {
     width: 100%;
     text-align: left;
     margin-left: 0%;
 }
-
+/* Navigation bar settings - used on all pages at the top - was super hard to figure out how to get rid of the bulet points, so very handy w3schools pg after...) */
 .navigationbar {
     float: left; 
     text-align: center;
@@ -125,92 +127,103 @@ hr {
     background-color: lightseagreen;
     Width: 100%;
 }
+/* Used on My Travels */
 #travelintro {
     margin-top: 50px;    
 }
-
+/* Used on My Travels */
 #mapiceland {
     align-items: center;
     display: flex;
     margin: auto;    
     justify-content: center;
 }
+/* Used on My Travels */
 #mapiceland img {
     margin: 10px;
 }
+/* Used on My Travels */
 #imagesiceland {
     align-items: center;
     display: flex;
     margin: auto;    
     justify-content: center;       
 }
+/* Used on My Travels */
 #imagesiceland img {
     margin: 10px;
 }
-
+/* Used on My Travels */
 #mapengland {
     align-items: center;
     display: flex;
     margin: auto;    
     justify-content: center;
 }
+/* Used on My Travels */
 #mapengland img {
     margin: 10px;
 }
+/* Used on My Travels */
 #imagesengland {
     align-items: center;
     display: flex;
     margin: auto;    
     justify-content: center;    
 }
+/* Used on My Travels */
 #imagesengland img {
     margin: 10px;
 }
-
+/* Used on My Travels */
 #maparizona {    
     align-items: center;
     display: flex;
     margin: auto;    
     justify-content: center;
 }
+/* Used on My Travels */
 #maparizona img {
     margin: 10px;
 }
+/* Used on My Travels */
 #imagesarizona {
     align-items: center;
     display: flex; 
     justify-content: center;
     margin: auto;
 }
+/* Used on My Travels */
 #imagesarizona img {
     margin: 10px;
 }
-
-/* Styles for navigation bar */
+/* Navigation bar settings - used on all pages at the top */
 ul.navigationlist {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}  
+}
+/* Navigation bar settings - used on all pages at the top */  
 li a {
 float: left;
 display: block;
 padding: 8px;
 background-color: lightseagreen;
 }
-
+/* Navigation bar settings - used on all pages at the top - the settings to stop the hyperlink 'effects' (font colour and underline after clicked on)  */
 li a,
 li a:visited,
 li a:active {
     text-decoration: none;
     color: azure;
 }
-
+/* Navigation bar settings - used on all pages at the top - added the hover efct so the background colour changes when the mouse moves over it  */
 li a:hover {
     background-color: mediumseagreen;
     text-decoration: none;
 }
+/* Navigation bar settings - used on all pages at the top */
 .location{
     text-align: center;
     font-size: 50px;
